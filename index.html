@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Page Scroll</title>
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/xpressengine/xeicon@2.4.0/xeicon.min.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.15/dist/ScrollTrigger.min.js"></script>
+  <script src="script/js.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="header_in">
+      <h1>
+        <figure><img src="img/free-icon-tropical-flower-8713713.png" alt=""></figure>
+        <span>One Page Scroll</span>
+      </h1>
+      <nav>
+        <ul>
+          <li><a href="#" data-target="#s1" class="active">Home</a></li>
+          <li><a href="#" data-target="#s2">Profile</a></li>
+          <li><a href="#" data-target="#s3">UX/UI</a></li>
+          <li><a href="#" data-target="#s4">Responsive Web Pages</a></li>
+          <li><a href="#" data-target="#s5">Mobile</a></li>
+          <li><a href="#" data-target="#s6">Design</a></li>
+          <span class="bar"></span>
+        </ul>
+      </nav>
+      <div class="mob_btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+      </div>
+    </div>
+  </header>
+
+  <section id="s1">
+    <h2>One Page Scroll</h2>
+    <div class="btnDown">
+      <i class="xi-angle-down"></i>
+    </div>
+  </section>
+
+  <section id="s2">
+    <div class="container">
+      <div class="txt">
+        <h2>Profile</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget felis vitae tellus varius placerat. Suspendisse potenti. Nam suscipit tortor eget tempor dapibus. </p>
+      </div>
+      <figure>
+        <img src="img/flower.jpg" alt="">
+      </figure>
+    </div>
+    <div class="btnDown">
+      <i class="xi-angle-down"></i>
+    </div>
+  </section>
+
+  <section id="s3">
+    <div class="container">
+      <div class="txt">
+        <h2>UX/UI</h2>
+      </div>
+      <div class="icons">
+        <ul>
+          <li>
+            <i class="xi-eye"></i>
+            <span>icon</span>
+          </li>
+          <li>
+            <i class="xi-headset"></i>
+            <span>icon</span>
+          </li>
+          <li>
+            <i class="xi-brightness"></i>
+            <span>icon</span>
+          </li>
+          <li>
+            <i class="xi-star"></i>
+            <span>icon</span>
+          </li>
+          <li>
+            <i class="xi-security"></i>
+            <span>icon</span>
+          </li>
+          <li>
+            <i class="xi-garden"></i>
+            <span>icon</span>
+          </li>
+          <li>
+            <i class="xi-umbrella"></i>
+            <span>icon</span>
+          </li>
+          <li>
+            <i class="xi-cake"></i>
+            <span>icon</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="btnDown">
+      <i class="xi-angle-down"></i>
+    </div>
+  </section>
+
+  <section id="s4">
+    <div class="container">
+      <div class="txt">
+        <h2>Responsive Web</h2>
+        <p>Lorem ipsum dolor sit or eget tempor dapibus.</p>
+      </div>
+      <div class="cards">
+        <article class="card">1</article>
+        <article class="card">2</article>
+        <article class="card">3</article>
+        <article class="card">4</article>
+      </div>
+    </div>
+    <div class="btnDown">
+      <i class="xi-angle-down"></i>
+    </div>
+  </section>
+
+  <section id="s5">
+    <div class="container">
+      <div class="txt">
+        <h2>Mobile App</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget felis vitae tellus varius placerat. Suspendisse potenti.</p>
+      </div>
+      <figure>
+        <img src="img/daffodil.png" alt="">
+      </figure>
+    </div>
+    <div class="btnDown">
+      <i class="xi-angle-down"></i>
+    </div>
+  </section>
+
+  <section id="s6">
+    <div class="container">
+      <div class="txt">
+        <h2>Graphic Design</h2>
+        <p>- end -</p>
+      </div>
+    </div>
+  </section>
+
+  <div id="remote">
+    <a href="#" data-target="#s1" class="active">1</a>
+    <a href="#" data-target="#s2">2</a>
+    <a href="#" data-target="#s3">3</a>
+    <a href="#" data-target="#s4">4</a>
+    <a href="#" data-target="#s5">5</a>
+    <a href="#" data-target="#s6">6</a>
+  </div>
+</body>
+</html>
